@@ -1,0 +1,81 @@
+body {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.cc1 {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 0.25rem ;
+    border-bottom-left-radius: 0.25rem ;
+}
+
+.cc2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.cc3 {
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 0.25rem ;
+    border-bottom-right-radius: 0.25rem ;
+}
+
+.title {
+    color:hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+}
+
+.sub-title {
+ color: hsla(0, 0%, 100%, 0.75);
+}
+
+.btn-custom {
+    background-color: hsl(0, 0%, 95%) !important;
+    color: hsl(31, 77%, 52%) !important;
+    border-radius: 20px !important; 
+}
+
+.btn-custom2 {
+    background-color: hsl(0, 0%, 95%) !important;
+    color: hsl(184, 100%, 22%)!important;
+    border-radius: 20px !important; 
+}
+
+.btn-custom3 {
+    background-color: hsl(0, 0%, 95%) !important;
+    color: hsl(179, 100%, 13%) !important;
+    border-radius: 20px !important; 
+}
+
+.btn-custom:hover {
+    background-color: hsl(31, 77%, 52%) !important;
+    color: hsl(0, 0%, 95%) !important;
+    border: 1px solid hsl(0, 0%, 95%) !important;
+    border-radius: 20px !important; 
+}
+
+.btn-custom2:hover {
+    background-color: hsl(184, 100%, 22%) !important;
+    color: hsl(0, 0%, 95%)!important;
+    border: 1px solid hsl(0, 0%, 95%) !important;
+    border-radius: 20px !important; 
+}
+
+.btn-custom3:hover {
+    background-color: hsl(179, 100%, 13%) !important;
+    color: hsl(0, 0%, 95%) !important;
+    border: 1px solid hsl(0, 0%, 95%) !important;
+    border-radius: 20px !important; 
+}
+
+@media screen and (max-width: 768px) {
+    .cc1 {
+        border-top-left-radius: 0.25rem;
+        border-top-right-radius: 0.25rem;
+    }
+
+    .cc3 {
+        border-bottom-left-radius: 0.25rem;
+        border-bottom-right-radius: 0.25rem;
+    }
+
+  }
